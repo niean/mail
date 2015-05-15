@@ -11,7 +11,7 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/alexcesaro/mail/quotedprintable"
+	"github.com/niean/mail/quotedprintable"
 )
 
 // Export converts the message into a net/mail.Message.

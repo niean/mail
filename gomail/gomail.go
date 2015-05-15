@@ -39,8 +39,8 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/alexcesaro/mail/mailer"
-	"github.com/alexcesaro/mail/quotedprintable"
+	"github.com/niean/mail/mailer"
+	"github.com/niean/mail/quotedprintable"
 )
 
 const (
