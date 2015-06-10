@@ -161,7 +161,7 @@ func isInList(address string, list []string) bool {
 func parseAddress(field string) (string, error) {
 	address, err := mail.ParseAddress(field)
 	if address == nil {
-		return "", err
+		return "", fmt.Errorf("%s, parse address fail, %s", err.Error(), field)
 	}
 
 	return address.Address, err
